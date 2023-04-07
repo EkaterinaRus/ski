@@ -110,6 +110,12 @@ body {
     z-index: 50;
 }
 
+.header-white {
+
+    background-color: #fff;
+
+}
+
 .header-wrapper {
     display: flex;
     justify-content: space-between;
@@ -142,6 +148,10 @@ body {
     font-weight: 500;
 }
 
+.menu-link-blue {
+    color: #005FF9;
+}
+
 .menu-link img {
     text-align: center;
     margin: 0 31px 8px 31px;
@@ -157,7 +167,7 @@ body {
     position: relative;
 }
 
-.page-basic-info{
+.page-form {
     margin: -81px 0px 0px 0px;
 }
 
@@ -1643,3 +1653,56 @@ body {
 /* .social-links a {
     text-decoration: none;
 } */
+
+/*------------Filter page --------------------------------------------*/
+
+
+.page_filters-banner {
+    height: 365px;
+}
+
+.btn-blue2 {
+    background: #005FF9;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 34px;
+    padding-right: 34px;
+}
+
+.btn-result2 {
+    min-width: 307px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 55.5px;
+    padding-right: 55.5px;
+    background-color: #FAA800;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.section-title2 {
+    margin-bottom: 40px;
+    color: #0042AD;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.image2 {
+    border-radius: 32px 32px 0 0;
+}
+
+.button-up {
+    margin: 94px 186px 94px 1130px;
+    border: none;
+    background: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #005FF9;
+    cursor: pointer;
+}
